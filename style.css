@@ -27,7 +27,7 @@
 .bg-gray {
     background: #F6F6F6;
     width: 20%;
-    height: 100%;
+    height: 85vh;
 }
 
 .mockup {
@@ -110,7 +110,7 @@
     margin-right: 30px;
 }
 
-.title-links {
+.title-links, .title-redes {
     color: #2D2828;
     font-size: 16px;
     font-weight: 500;
@@ -145,6 +145,18 @@
     line-height: 16px;
 }
 
+.content-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+}
+
+.lines {
+    border: 1px solid #A1A1A1;
+    margin: 0;
+    width: 70%;
+}
+
 @media (max-width: 1400px) {
     .img-phone {
         height: 550px;
@@ -154,5 +166,200 @@
     .profile-matheus,
     .profile-claudia {
         height: 435px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .mockup-mobile {
+        display: none;
+    }
+}
+
+/* mobile */
+@media (min-width: 350px) and (max-width: 425px) { 
+    .bg-purple {
+        height: 830px;
+        width: 95%;
+    }
+
+    .bg-violet {
+        height: 830px;
+        width: 5%;
+    }
+
+    .bg-white {
+        width: 95%;
+    }
+
+    .bg-gray {
+        width: 5%;
+    }
+
+    .header {
+        align-items: center;
+        height: 40%;
+        margin-top: 20%;
+        width: 90%;
+    }
+
+    .title-one, .title-two, 
+    .title-three {
+        line-height: 45px;
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .content-body {
+        align-items: center;
+        margin-top: -90%;
+        width: 90%;
+    }
+
+    .title-links {
+        color: #F6F6F6;
+        text-align: center;
+    }
+
+    .appStore {
+        margin-right: 0px;
+    }
+
+    .social-media {
+        margin-top: 700px;
+    }
+
+    .title-redes {
+        text-align: center;
+    }
+
+    .instagram {
+        margin-right: 0;
+    }
+
+    .lines {
+        width: 85%;
+    }
+
+    .text-infos {
+        padding: 0 25px 0 25px;
+        width: 100%;
+    }
+
+    .text-termos {
+        display: none;
+    }
+
+    .content-footer {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .mock-desktop {
+        display: none;
+    }
+
+    .mockup-mobile {
+        position: absolute;
+        margin-top: 185px;
+    }
+}
+
+/* tablet */
+@media (min-width: 426px) and (max-width: 1025px) {
+    .bg-purple {
+        height: 950px;
+        width: 95%;
+    }
+
+    .bg-violet {
+        height: 950px;
+        width: 5%;
+    }
+
+    .bg-white {
+        width: 95%;
+    }
+
+    .bg-gray {
+        height: 110vh;
+        width: 5%;
+    }
+
+    .header {
+        align-items: center;
+        height: 40%;
+        margin-top: 10%;
+        width: 90%;
+    }
+
+    .title-one, .title-two, 
+    .title-three {
+        line-height: 45px;
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .content-body {
+        align-items: center;
+        margin-top: -50%;
+        width: 90%;
+    }
+
+    .title-links {
+        color: #F6F6F6;
+        text-align: center;
+    }
+
+    .appStore {
+        margin-right: 0px;
+    }
+
+    .social-media {
+        margin-top: 820px;
+    }
+
+    .title-redes {
+        text-align: center;
+    }
+
+    .instagram {
+        margin-right: 0;
+    }
+
+    .lines {
+        width: 85%;
+    }
+
+    .text-infos {
+        padding: 0 50px 0 50px;
+        width: 100%;
+    }
+
+    .text-termos {
+        display: none;
+    }
+
+    .content-footer {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .mock-desktop {
+        display: none;
+    }
+
+    .mockup-mobile {
+        position: absolute;
+        margin-top: 185px;
+    }
+
+    .img-phone {
+        height: 650px;
+    }
+
+    .profile-ana,
+    .profile-matheus,
+    .profile-claudia {
+        height: 510px;
     }
 }
