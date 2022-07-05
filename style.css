@@ -27,7 +27,7 @@
 .bg-gray {
     background: #F6F6F6;
     width: 20%;
-    height: 85vh;
+    height: 725px;
 }
 
 .mockup {
@@ -192,6 +192,7 @@
     }
 
     .bg-gray {
+        height: 1200px;
         width: 5%;
     }
 
